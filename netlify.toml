@@ -4,3 +4,4 @@ command = "env && env HUGO_PARAMS_GTMTAGID=$HUGO_PARAMS_GTMTAGID && env && hugo 
 
 [context.production.environment]
 HUGO_VERSION = "0.74.3"
+HUGO_PARAMS_GTMTAGID = "GTM-548S2KB3"
