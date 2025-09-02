@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "env HUGO_PARAMS_GTMTAGID=$HUGO_PARAMS_GTMTAGID hugo --gc --minify"
+command = "env && env HUGO_PARAMS_GTMTAGID=$HUGO_PARAMS_GTMTAGID && env && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.74.3"
